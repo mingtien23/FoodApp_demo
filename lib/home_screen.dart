@@ -328,8 +328,6 @@ class _AssetIcon extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Nếu icon là PNG màu đen thì tint sẽ ok,
-    // còn nếu icon đã có màu sẵn thì cứ để tint = null.
     return Image.asset(path, width: size, height: size, color: tint);
   }
 }
